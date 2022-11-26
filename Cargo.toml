@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Adam Shirey <adam@shirey.ch>"]
 edition = "2021"
 
-description = "A command-line app for extracting JSON data from stdin."
+description = "In-memory version of Fisher's Iris dataset."
 readme = "README.md"
 homepage = "https://github.com/aeshirey/irisdata/"
 repository = "https://github.com/aeshirey/irisdata/"
