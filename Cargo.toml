@@ -1,0 +1,16 @@
+[package]
+name = "irisdata"
+version = "0.1.0"
+authors = ["Adam Shirey <adam@shirey.ch>"]
+edition = "2021"
+
+description = "A command-line app for extracting JSON data from stdin."
+readme = "README.md"
+homepage = "https://github.com/aeshirey/irisdata/"
+repository = "https://github.com/aeshirey/irisdata/"
+license = "MIT OR Apache-2.0"
+keywords = ["data", "iris"]
+
+
+[dependencies]
+
