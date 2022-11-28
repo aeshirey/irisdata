@@ -1,16 +1,32 @@
-#[derive(Debug, Clone, PartialEq, Eq)]
+#[derive(Debug, Copy, Clone, PartialEq, Eq)]
 pub enum Species {
+    /// [Iris setosa](https://en.wikipedia.org/wiki/Iris_setosa), the bristle-pointed iris.
     IrisSetosa,
+
+    /// [Iris versicolor](https://en.wikipedia.org/wiki/Iris_versicolor), commonly known as the
+    /// blue flag.
     IrisVersicolor,
+
+    /// [Iris virginica](https://en.wikipedia.org/wiki/Iris_virginica), commonly known as the
+    /// Virginia blueflag.
     IrisVirginica,
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, PartialEq)]
 pub struct Iris {
+    /// Length of the sepal in centimeters
     pub sepal_length: f32,
+
+    /// Width of the sepal in centimeters
     pub sepal_width: f32,
+
+    /// Length of the petal in centimeters
     pub petal_length: f32,
+
+    /// Width of the petal in centimeters
     pub petal_width: f32,
+
+    /// Identified [Species] of iris
     pub species: Species,
 }
 
